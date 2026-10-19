@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Christine Ye Shu Blackshaw — research in tropical cyclone hazards, climate risk, infrastructure resilience, and uncertainty." />
-  <title>Christine Blackshaw | Climate & Hurricane Risk Research</title>
+  <meta name="description" content="Christine Ye Shu Blackshaw — PhD candidate at Princeton University studying tropical cyclone hazards, climate risk, uncertainty, and infrastructure resilience." />
+  <title>Christine Ye Shu Blackshaw</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top">Christine Blackshaw</a>
-      <nav>
+    <div class="shell header-inner">
+      <a class="site-name" href="#top">Christine Ye Shu Blackshaw</a>
+      <nav aria-label="Primary navigation">
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#about">About</a>
@@ -21,101 +21,168 @@
   </header>
 
   <main id="top">
-    <section class="hero container">
-      <div class="hero-copy">
-        <p class="eyebrow">Civil & Environmental Engineering · Princeton University</p>
-        <h1>Understanding hurricane hazards and infrastructure risk in a changing climate.</h1>
-        <p class="lede">I study how tropical cyclone hazards and their impacts can be better characterized under uncertainty and climate change, with a focus on forecasting, extreme winds, compound hazards, and infrastructure resilience.</p>
-        <div class="hero-links">
-          <a class="button" href="#research">Explore research</a>
-          <a class="text-link" href="https://github.com/cyblackshaw">GitHub ↗</a>
+    <section class="intro shell">
+      <div class="intro-photo">
+        <div class="photo-placeholder" role="img" aria-label="Headshot placeholder">
+          <span>Headshot</span>
+          <small>Add <code>assets/headshot.jpg</code></small>
         </div>
       </div>
-      <aside class="hero-card">
-        <p class="mini-label">Current focus</p>
-        <ul>
-          <li>Tropical cyclone forecasting & uncertainty</li>
-          <li>Design winds under climate change</li>
-          <li>Compound urban flood & heat hazards</li>
-        </ul>
-      </aside>
+      <div class="intro-copy">
+        <p class="kicker">Civil &amp; Environmental Engineering · Princeton University</p>
+        <h1>Christine Ye Shu Blackshaw</h1>
+        <p class="role">PhD Candidate in Civil &amp; Environmental Engineering</p>
+        <p class="summary">I study tropical cyclone hazards and infrastructure risk, with a focus on how forecast uncertainty and climate change affect extreme winds, compound hazards, and decisions about resilient infrastructure.</p>
+        <p class="summary">My work combines physical hazard modeling, climate-model ensembles, geospatial analysis, and risk methods to understand both present-day and future hurricane impacts.</p>
+        <div class="link-row" aria-label="Professional links">
+          <a href="mailto:cyblackshaw@gmail.com">Email</a>
+          <a href="https://github.com/cyblackshaw">GitHub</a>
+          <a href="assets/Christine_Blackshaw_CV.docx">CV</a>
+        </div>
+      </div>
     </section>
 
-    <section id="research" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">Research</p>
-        <h2>Three connected questions</h2>
-      </div>
-      <div class="card-grid">
-        <article class="research-card">
-          <div class="placeholder-figure">Forecast cones · tracks · county impacts</div>
-          <h3>Hurricane Forecasting & Uncertainty</h3>
-          <p>I develop forecasting workflows that combine official NHC forecasts, cone-edge tracks, and dynamical model tracks to estimate county-level wind, rainfall, storm tide, and power outages.</p>
-          <p class="detail">The work asks how uncertainty in track, intensity, and storm size propagates into hazard and impact estimates across successive advisories.</p>
-        </article>
+    <section id="research" class="section shell">
+      <header class="section-title">
+        <p class="kicker">Research</p>
+        <h2>Hurricane hazards, climate change, and infrastructure risk</h2>
+      </header>
 
-        <article class="research-card">
-          <div class="placeholder-figure">Design wind maps · CMIP6 · return periods</div>
+      <article class="research-item">
+        <div class="research-visual">
+          <div class="figure-placeholder">
+            <span>Forecast tracks / cone / county impacts</span>
+            <small>Suggested image: forecast-track or hazard-map figure</small>
+          </div>
+        </div>
+        <div class="research-text">
+          <p class="research-number">01</p>
+          <h3>Tropical Cyclone Forecasting &amp; Uncertainty</h3>
+          <p>I am developing a forecasting platform that uses official National Hurricane Center forecasts, cone-edge tracks, and dynamical model tracks to estimate county-level wind, rainfall, storm tide, and power outages.</p>
+          <p>The project examines how uncertainty in storm track, intensity, and size propagates into hazard and impact estimates, and how well forecast hazard ranges contain hazards modeled from best-track storm inputs across successive advisories.</p>
+          <p class="methods"><strong>Methods:</strong> tropical cyclone hazard modeling, forecast ensembles, uncertainty propagation, geospatial analysis, outage modeling</p>
+        </div>
+      </article>
+
+      <article class="research-item reverse">
+        <div class="research-visual">
+          <div class="figure-placeholder">
+            <span>Design-wind maps / return periods</span>
+            <small>Suggested image: historical vs. future design-wind map</small>
+          </div>
+        </div>
+        <div class="research-text">
+          <p class="research-number">02</p>
           <h3>Design Winds Under Climate Change</h3>
-          <p>I estimate tropical cyclone design wind speeds for U.S. coastal counties using synthetic storms, reanalysis, and CMIP6 climate projections.</p>
-          <p class="detail">I compare stationary and nonstationary approaches and examine how structural design winds may evolve through 2100 across emissions scenarios and risk categories.</p>
+          <p>I estimate tropical cyclone design wind speeds for U.S. coastal counties from Texas to Maine using synthetic tropical cyclones, ERA5 reanalysis, and CMIP6 climate projections under multiple emissions scenarios.</p>
+          <p>This work compares stationary and nonstationary approaches to extreme-wind estimation, benchmarks historical estimates against ASCE 7-22, and assesses how design winds may change through 2100 across structural risk categories.</p>
+          <p class="methods"><strong>Methods:</strong> extreme-value and return-period analysis, climate-model ensembles, nonstationary hazard analysis, synthetic storm modeling, HPC</p>
+        </div>
+      </article>
+
+      <article class="research-item">
+        <div class="research-visual">
+          <div class="figure-placeholder">
+            <span>Urban heat / inundation / compound hazards</span>
+            <small>Suggested image: WRF temperature or flood-exposure map</small>
+          </div>
+        </div>
+        <div class="research-text">
+          <p class="research-number">03</p>
+          <h3>Compound Urban Flood &amp; Heat Hazards</h3>
+          <p>I use atmospheric and urban-canopy modeling to investigate interactions between tropical cyclones and heatwaves, including post-storm nighttime heat stress in urban environments.</p>
+          <p>The broader goal is to integrate flood and urban-climate modeling to evaluate compound exposure to inundation and heat and better understand the risks that emerge when hazards occur in close succession.</p>
+          <p class="methods"><strong>Methods:</strong> WRF, urban-canopy modeling, flood modeling, compound-hazard analysis, urban climate</p>
+        </div>
+      </article>
+
+      <div class="additional-research">
+        <h3>Additional research</h3>
+        <p>My related work includes storm-surge risk assessment using hydrodynamic simulations and paleohurricane records; coastal flooding and power-system resilience under climate change; and earlier research on New York City subway flood propagation, damage, and hurricane flood protection.</p>
+      </div>
+    </section>
+
+    <section id="publications" class="section section-rule shell">
+      <header class="section-title compact">
+        <p class="kicker">Selected work</p>
+        <h2>Publications &amp; manuscripts</h2>
+      </header>
+
+      <div class="publication-list">
+        <article class="publication">
+          <p class="pub-year">2026</p>
+          <div>
+            <p class="pub-title">Climate Sensitivity of Tropical Cyclone Design Winds in the United States.</p>
+            <p>Blackshaw, C. Y., &amp; Lin, N. <em>Earth's Future.</em> Under review.</p>
+          </div>
         </article>
 
-        <article class="research-card">
-          <div class="placeholder-figure">Urban heat · inundation · coupled hazards</div>
-          <h3>Compound Urban Hazards</h3>
-          <p>I use atmospheric and urban-canopy modeling to study interactions between tropical cyclones and heatwaves, including post-storm nighttime heat stress.</p>
-          <p class="detail">This work links flood and urban-climate modeling to understand compound exposure and infrastructure consequences in cities.</p>
+        <article class="publication">
+          <p class="pub-year">2026</p>
+          <div>
+            <p class="pub-title">Climate change exacerbates disparities of energy resilience in New York City.</p>
+            <p>Xu, L., Lin, N., Perera, A. T. D., Spaulding, A. C., Wang, Z., Oppenheimer, M., Blackshaw, C., &amp; Poor, V. <em>Nature Communications.</em> Under review.</p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <p class="pub-year">2025</p>
+          <div>
+            <p class="pub-title">Coastal storm-induced flooding risk of the New York City subway amid climate change.</p>
+            <p>Miura, Y., Blackshaw, C. Y., Zhang, M. S., Mandli, K. T., &amp; Deodatis, G. <em>Transportation Research Part D: Transport and Environment</em>, 149, 104974.</p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <p class="pub-year">2025</p>
+          <div>
+            <p class="pub-title">Investigating the interaction of tropical cyclone-heatwave compound hazards in urban environments.</p>
+            <p>Blackshaw, C. Y., Lin, N., Begmohammadi, A., &amp; Bou-Zeid, E. <em>Urban Climate</em>, 64, 102667.</p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <p class="pub-year">2024</p>
+          <div>
+            <p class="pub-title">Integrating Climatological-Hydrodynamic Modeling and Paleohurricane Records to Assess Storm Surge Risk.</p>
+            <p>Begmohammadi, A., Blackshaw, C. Y., Lin, N., Gori, A., Wallace, E., Emanuel, K., &amp; Donnelly, J. P. <em>Journal of Geophysical Research: Oceans</em>, 129(1), e2023JC020354.</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="publications" class="section alt">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Selected work</p>
-          <h2>Publications & manuscripts</h2>
-        </div>
-        <div class="pub-list">
-          <article>
-            <span class="year">2026</span>
-            <div><strong>Climate Sensitivity of Tropical Cyclone Design Winds in the United States.</strong><br><span>Christine Y. S. Blackshaw & Ning Lin · <em>Earth's Future</em> · under review</span></div>
-          </article>
-          <article>
-            <span class="year">2025</span>
-            <div><strong>Coastal storm-induced flooding risk of the New York City subway amid climate change.</strong><br><span>Miura, Blackshaw, Zhang, Mandli & Deodatis · <em>Transportation Research Part D</em> 149, 104974</span></div>
-          </article>
-          <article>
-            <span class="year">2025</span>
-            <div><strong>Investigating the interaction of tropical cyclone-heatwave compound hazards in urban environments.</strong><br><span>Blackshaw, Lin, Begmohammadi & Bou-Zeid · <em>Urban Climate</em> 64, 102667</span></div>
-          </article>
-          <article>
-            <span class="year">2024</span>
-            <div><strong>Integrating Climatological-Hydrodynamic Modeling and Paleohurricane Records to Assess Storm Surge Risk.</strong><br><span>Begmohammadi et al. · <em>Journal of Geophysical Research: Oceans</em> 129(1)</span></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section container two-col">
+    <section id="about" class="section section-rule shell about-grid">
       <div>
-        <p class="eyebrow">About</p>
-        <h2>Christine Ye Shu Blackshaw</h2>
-        <p>I am a PhD researcher in Civil and Environmental Engineering at Princeton University, advised by Professor Ning Lin. My research sits at the intersection of tropical cyclone science, climate change, hazard modeling, and infrastructure risk.</p>
-        <p>I work across Python, MATLAB, R, GIS, high-performance computing, climate-model ensembles, and numerical hazard models including PepC, ADCIRC, SFINCS, WRF, PUCM, and HEC-RAS.</p>
+        <p class="kicker">About</p>
+        <h2>Background</h2>
+        <p>I am a PhD candidate in Civil and Environmental Engineering at Princeton University, advised by Professor Ning Lin. I received my MA from Princeton in 2023 and my BS in Civil Engineering, with a minor in Environmental Engineering, from Columbia University in 2021.</p>
+        <p>I am an NSF Graduate Research Fellow and have also worked in teaching, mentoring, and campus climate research through Princeton's environmental programs.</p>
       </div>
-      <div class="facts">
-        <div><span>Education</span><strong>PhD, Princeton University</strong><small>2021–2027 anticipated</small></div>
-        <div><span>Graduate fellowship</span><strong>NSF Graduate Research Fellow</strong><small>2022–2026</small></div>
-        <div><span>Background</span><strong>BS, Civil Engineering</strong><small>Columbia University, 2021</small></div>
-      </div>
+      <aside class="about-details">
+        <div>
+          <span>Research areas</span>
+          <p>Tropical cyclones · climate risk · extreme winds · compound hazards · infrastructure resilience</p>
+        </div>
+        <div>
+          <span>Tools &amp; models</span>
+          <p>Python · MATLAB · R · GIS · SLURM/HPC · PepC · ADCIRC · SFINCS · WRF · PUCM · HEC-RAS</p>
+        </div>
+        <div>
+          <span>Affiliation</span>
+          <p>Department of Civil and Environmental Engineering<br>Princeton University</p>
+        </div>
+      </aside>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-wrap">
-      <span>© Christine Blackshaw</span>
-      <span>Built with GitHub Pages</span>
+    <div class="shell footer-inner">
+      <p>Christine Ye Shu Blackshaw</p>
+      <div class="footer-links">
+        <a href="mailto:cyblackshaw@gmail.com">Email</a>
+        <a href="https://github.com/cyblackshaw">GitHub</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
     </div>
   </footer>
 </body>
